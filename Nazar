@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Говноозеро — Славута | Офіційний сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #5a3921;
+            text-align: center;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .map-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            border-radius: 10px;
+            width: 100%;
+            height: 300px;
+        }
+        .fact {
+            background-color: #e6e6e6;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Говноозеро — Славута</h1>
+        <p>Найзагадковіша водойма Хмельниччини</p>
+    </div>
+    
+    <div class="map-container">
+        <h2>📍 Розташування</h2>
+        <p>Озеро знаходиться у місті Славута, Хмельницька область.</p>
+        <iframe src="https://www.google.com/maps/place/%D0%A1%D0%BC%D0%B5%D1%80%D0%B4%D1%8E%D1%87%D0%B5+%D0%BE%D0%B7%D0%B5/@50.2830526,26.8562136,199m/data=!3m1!1e3!4m6!3m5!1s0x472ef7002a0a210f:0xef0b6fdd44c9e0a7!8m2!3d50.2829536!4d26.8567104!16s%2Fg%2F11m6shthf9?hl=uk&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+    <div class="fact">
+        <h2>🤔 Чому таке назва?</h2>
+        <p>За версіями місцевих жителів, назва походить від:</p>
+        <ul>
+            <li>Характерного кольору води (через торф'яні відкладення)</li>
+            <li>Старої легенди про "прокляте" місце</li>
+            <li>Неофіційного історичного прізвиська місцевості</li>
+        </ul>
+    </div>
+    
+    <h2>📸 Фотогалерея</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/150/8B4513/FFFFFF?text=Озеро+1" alt="Говноозеро">
+        <img src="https://via.placeholder.com/150/5a3921/FFFFFF?text=Озеро+2" alt="Говноозеро">
+        <img src="https://via.placeholder.com/150/654321/FFFFFF?text=Озеро+3" alt="Говноозеро">
+        <img src="https://via.placeholder.com/150/333333/FFFFFF?text=Озеро+4" alt="Говноозеро">
+    </div>
+    
+    <div class="fact">
+        <h2>ℹ️ Інформація для відвідувачів</h2>
+        <p><strong>Рекомендації:</strong></p>
+        <ul>
+            <li>Озеро має природне походження — бережіть екосистему!</li>
+            <li>Купання не заборонене, але на ваш страх і ризик</li>
+            <li>Найкрасивіші види на світанку</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>© 2023 Говноозеро, Славута. Сайт створено з повагою до місцевих традицій.</p>
+        <p><small>PS: Назва не пов'язана з санітарним станом водойми 😉</small></p>
+    </footer>
+</body>
+</html>
